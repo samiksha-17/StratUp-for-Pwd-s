@@ -1,0 +1,185 @@
+.bank-detail-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.bank-detail-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.bank-detail-heading {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.bank-detail-header {
+  color: rgb(53, 43, 42);
+  width: 100%;
+  font-size: 60px;
+  max-width: 800px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  line-height: 60px;
+}
+.bank-detail-caption {
+  color: rgb(53, 43, 42);
+  font-size: 18px;
+  max-width: 800px;
+  text-align: center;
+  font-family: "Karla";
+  line-height: 27px;
+}
+.bank-detail-row {
+  gap: var(--dl-space-space-fourunits);
+  width: 1500px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.bank-detail-container2 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.bank-detail-heading1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.bank-detail-row1 {
+  gap: var(--dl-space-space-fourunits);
+  width: 1500px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.bank-detail-row2 {
+  gap: var(--dl-space-space-fourunits);
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.bank-detail-row3 {
+  gap: var(--dl-space-space-fourunits);
+  width: 1500px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.bank-detail-row4 {
+  gap: var(--dl-space-space-fourunits);
+  width: 1500px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.bank-detail-row5 {
+  gap: var(--dl-space-space-fourunits);
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+@media(max-width: 991px) {
+  .bank-detail-row {
+    gap: var(--dl-space-space-threeunits);
+  }
+  .bank-detail-row1 {
+    gap: var(--dl-space-space-threeunits);
+  }
+  .bank-detail-row2 {
+    gap: var(--dl-space-space-threeunits);
+  }
+  .bank-detail-row3 {
+    gap: var(--dl-space-space-threeunits);
+  }
+  .bank-detail-row4 {
+    gap: var(--dl-space-space-threeunits);
+  }
+  .bank-detail-row5 {
+    gap: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .bank-detail-heading {
+    gap: var(--dl-space-space-unit);
+    align-items: center;
+  }
+  .bank-detail-header {
+    font-size: 32px;
+    max-width: 75%;
+    text-align: center;
+    line-height: 31px;
+  }
+  .bank-detail-caption {
+    font-size: 16px;
+    max-width: 60%;
+    text-align: center;
+    line-height: 24px;
+  }
+  .bank-detail-row {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .bank-detail-heading1 {
+    gap: var(--dl-space-space-unit);
+    align-items: center;
+  }
+  .bank-detail-row1 {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .bank-detail-row2 {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .bank-detail-row3 {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .bank-detail-row4 {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .bank-detail-row5 {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+}
